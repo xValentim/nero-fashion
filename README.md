@@ -353,7 +353,7 @@ The AI-powered fashion assistant includes:
 4. Follow Python PEP 8 standards and add comprehensive tests
 
 ### Resources & Contact
-- **Repository**: [https://github.com/DECO190/hackaton-gke](https://github.com/DECO190/hackaton-gke)
+- **Repository**: [https://github.com/xValentim/nero-fashion](https://github.com/xValentim/nero-fashion)
 - **Documentation**: [GKE](https://cloud.google.com/kubernetes-engine/docs) | [Gemini AI](https://ai.google.dev/) | [FastAPI](https://fastapi.tiangolo.com/)
 - **API Reference**: Interactive docs at `/docs` endpoint when deployed
 
