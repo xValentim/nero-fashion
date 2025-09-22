@@ -20,6 +20,12 @@ This project enhances the original Google Cloud microservices demo by adding:
 
 [![Enhanced Architecture](/docs/img/new-architecture-diagram.png)](/docs/img/new-architecture-diagram.png)
 
+## 📱 **Screenshots**
+
+   | Enhanced Homepage with NeroFashion | AI Image Remix |
+   |----------------------------|---------------------------|
+   | [![Screenshot of NeroFashion Homepage](/docs/img/nerofashion-homepage.png)](/docs/img/nerofashion-homepage.png) | [![Screenshot of AI Image Remix](/docs/img/ai-image-remix.png)](/docs/img/ai-image-remix.png) |
+
 Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 
 | Service | Language | Description |
@@ -126,7 +132,7 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/xValentim/nero-fashion.git
-   cd hackaton-gke
+   cd nero-fashion
    ```
 
 2. **Configure environment variables**:
