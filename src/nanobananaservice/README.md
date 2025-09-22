@@ -38,6 +38,7 @@ The **Nano Banana Service** is an AI-powered fashion assistant microservice that
 
 ### Product Information
 - `GET /products` - List all products from the catalog
+- `GET /products/{product_id}` - Get product details by ID
 - `GET /products-name/{name}` - Search products by name
 
 ### AI-Powered Features
@@ -45,6 +46,14 @@ The **Nano Banana Service** is an AI-powered fashion assistant microservice that
 - `POST /describe-image` - Analyze and describe images (product or person)
 - `POST /remix-images` - Create AI-generated product combinations
 - `POST /sell-product-from-query` - Generate sales content based on user queries and images
+
+### Cart Management
+- `POST /cart/add-item` - Add item to user's cart
+- `GET /cart/{user_id}` - Get user's cart contents
+- `DELETE /cart/{user_id}` - Empty user's cart
+
+### Email Services
+- `POST /email/send-confirmation` - Send order confirmation email
 
 ## Configuration
 
