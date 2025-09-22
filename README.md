@@ -68,6 +68,8 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 - `GET /cart/{user_id}` - Retrieve user shopping cart contents
 - `DELETE /cart/{user_id}` - Empty user shopping cart
 - `POST /email/send-confirmation` - Personalized email campaigns
+
+
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
 
 **Online Boutique** is a cloud-first microservices demo application.  The application is a
@@ -123,7 +125,7 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/DECO190/hackaton-gke.git
+   git clone https://github.com/xValentim/nero-fashion.git
    cd hackaton-gke
    ```
 
@@ -257,6 +259,7 @@ The AI-powered fashion assistant includes:
 | `/health` | GET | Service health check |
 | `/products` | GET | Get all products with AI insights |
 | `/products/{product_id}` | GET | Get specific product details |
+| `/products-name/{name}` | GET | Search products by name |
 | `/products-name/{name}` | GET | Search products by exact name match |
 | `/assistant-fashion` | POST | Upload image for fashion analysis |
 | `/describe-image` | POST | AI image analysis for products or persons |
@@ -279,7 +282,7 @@ The AI-powered fashion assistant includes:
 
 1. **Clone and configure environment**:
    ```bash
-   git clone https://github.com/DECO190/hackaton-gke.git
+   git clone https://github.com/xValentim/nero-fashion.git
    cd hackaton-gke
    
    # Create virtual environment
