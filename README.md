@@ -55,13 +55,18 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 - **Real-time Analysis**: Instant fashion feedback and styling suggestions
 
 ### 🔌 **API Endpoints**
+- `GET /` - Service root endpoint and status check
 - `GET /health` - Service health check
 - `GET /products` - Enhanced product catalog with AI insights
+- `GET /products/{product_id}` - Get specific product details
+- `GET /products-name/{name}` - Search products by exact name
 - `POST /assistant-fashion` - AI fashion advice from user images
 - `POST /describe-image` - AI image analysis (product/person)
 - `POST /remix-images` - AI-generated product combinations
 - `POST /sell-product-from-query` - AI sales content generation
 - `POST /cart/add-item` - Smart cart management
+- `GET /cart/{user_id}` - Retrieve user shopping cart contents
+- `DELETE /cart/{user_id}` - Empty user shopping cart
 - `POST /email/send-confirmation` - Personalized email campaigns
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
 
@@ -248,14 +253,19 @@ The AI-powered fashion assistant includes:
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
+| `/` | GET | Root service endpoint with status message |
 | `/health` | GET | Service health check |
 | `/products` | GET | Get all products with AI insights |
 | `/products/{product_id}` | GET | Get specific product details |
+| `/products-name/{name}` | GET | Search products by exact name match |
 | `/assistant-fashion` | POST | Upload image for fashion analysis |
+| `/describe-image` | POST | AI image analysis for products or persons |
+| `/remix-images` | POST | AI-powered image remixing with two input images |
+| `/sell-product-from-query` | POST | Generate personalized sales content from user image and text |
 | `/cart/add-item` | POST | Add item to cart with AI suggestions |
 | `/cart/{user_id}` | GET | Get user cart with recommendations |
 | `/cart/{user_id}` | DELETE | Clear user cart |
-| `/send-email` | POST | Send confirmation email with styling tips |
+| `/email/send-confirmation` | POST | Send confirmation email with styling tips |
 
 ## 📋 **Local Development Setup**
 
