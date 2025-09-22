@@ -57,12 +57,17 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 ### 🔌 **API Endpoints**
 - `GET /health` - Service health check
 - `GET /products` - Enhanced product catalog with AI insights
+- `GET /products/{product_id}` - Get product details by ID.
+- `GET /products-name/{name}` - Search products by name.
 - `POST /assistant-fashion` - AI fashion advice from user images
 - `POST /describe-image` - AI image analysis (product/person)
 - `POST /remix-images` - AI-generated product combinations
 - `POST /sell-product-from-query` - AI sales content generation
 - `POST /cart/add-item` - Smart cart management
+- `POST /cart/{user_id}`- Get user's cart contents.
+- `DELETE /cart/{user_id}` - Empty user's cart.
 - `POST /email/send-confirmation` - Personalized email campaigns
+- 
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
 
 **Online Boutique** is a cloud-first microservices demo application.  The application is a
@@ -251,11 +256,15 @@ The AI-powered fashion assistant includes:
 | `/health` | GET | Service health check |
 | `/products` | GET | Get all products with AI insights |
 | `/products/{product_id}` | GET | Get specific product details |
+| `/products-name/{name}` | GET | Search products by name |
 | `/assistant-fashion` | POST | Upload image for fashion analysis |
+| `/describe-image` | POST | Analyze image for product/person details |
+| `/remix-images` | POST | Generate AI product combinations |
+| `/sell-product-from-query` | POST | Generate sales content from text query |
 | `/cart/add-item` | POST | Add item to cart with AI suggestions |
 | `/cart/{user_id}` | GET | Get user cart with recommendations |
 | `/cart/{user_id}` | DELETE | Clear user cart |
-| `/send-email` | POST | Send confirmation email with styling tips |
+| `/send-email-confirmation` | POST | Send confirmation email with styling tips |
 
 ## 📋 **Local Development Setup**
 
