@@ -37,6 +37,12 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 | **[🍌 nanobananaservice](/src/nanobananaservice)** | **Python/FastAPI** | **🚀 AI Fashion Assistant with Gemini AI for intelligent recommendations, image analysis, and personalized shopping experiences.** |
 | [loadgenerator](/src/loadgenerator) | Python/Locust | Simulates realistic user shopping behavior for testing. |
 
+## 📱 **Screenshots**
+
+| Enhanced Homepage with NeroFashion | AI Image Remix |
+|----------------------------|---------------------------|
+| [![Screenshot of NeroFashion Homepage](/docs/img/nerofashion-homepage.png)](/docs/img/nerofashion-homepage.png) | [![Screenshot of AI Image Remix](/docs/img/ai-image-remix.png)](/docs/img/ai-image-remix.png) |
+
 ## ✨ **AI Features - NanoBanana Service**
 
 ### 🤖 **AI Fashion Assistant**
