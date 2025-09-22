@@ -341,7 +341,7 @@ The AI-powered fashion assistant includes:
 - **Go, Node.js, C#, Java, Python**: Multi-language microservices architecture
 
 ### AI/ML Integration
-- **Gemini Pro Vision**: Image analysis and fashion recommendations
+- **Gemini Flash (Nano Banana)**: Image analysis and fashion recommendations
 - **Gemini Pro**: Text generation for product descriptions and styling advice
 - **Custom AI Workflows**: Intelligent product matching and personalized recommendations
 
