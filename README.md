@@ -67,7 +67,8 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 - `POST /cart/{user_id}`- Get user's cart contents.
 - `DELETE /cart/{user_id}` - Empty user's cart.
 - `POST /email/send-confirmation` - Personalized email campaigns
-- 
+
+
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
 
 **Online Boutique** is a cloud-first microservices demo application.  The application is a
@@ -123,7 +124,7 @@ Find **Protocol Buffers Descriptions** at the [`./protos` directory](/protos).
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/DECO190/hackaton-gke.git
+   git clone https://github.com/xValentim/nero-fashion.git
    cd hackaton-gke
    ```
 
@@ -278,7 +279,7 @@ The AI-powered fashion assistant includes:
 
 1. **Clone and configure environment**:
    ```bash
-   git clone https://github.com/DECO190/hackaton-gke.git
+   git clone https://github.com/xValentim/nero-fashion.git
    cd hackaton-gke
    
    # Create virtual environment
