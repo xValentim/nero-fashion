@@ -289,7 +289,7 @@ The AI-powered fashion assistant includes:
 1. **Clone and configure environment**:
    ```bash
    git clone https://github.com/xValentim/nero-fashion.git
-   cd hackaton-gke
+   cd nero-fashion
    
    # Create virtual environment
    python -m venv env
