@@ -2,7 +2,9 @@
 
 ![Continuous Integration](https://github.com/GoogleCloudPlatform/microservices-demo/workflows/Continuous%20Integration%20-%20Main/Release/badge.svg)
 
-![API Docs](http://34.61.215.100:8080/docs)
+[API Docs](http://34.61.215.100:8080/docs)
+
+
 
 
 **NanoBanana Fashion AI** is an enhanced version of Google's **Online Boutique** demo application, featuring a revolutionary **AI-powered fashion assistant** built with Google's Gemini AI. This project demonstrates how to modernize e-commerce applications with cutting-edge artificial intelligence capabilities.
